@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #421e74;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+.container#miegs {
+    width: 100%;
+    height: 100%;
+}
+
+#miegs p {
+    text-align: justify;
+}
+
+#miegs h1 {
+    color: #421e74;
+}
+
+.container#miegs {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/MIEGS.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container#cels {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/CEĻŠGraph.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container#JaunaTeika {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/JAUNATEIKA.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container#Baznica {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/BAZNICA.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container#Satiksme {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/SATIKSME.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container#Piemineklis {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/Piemineklis.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container#Galamerkis {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("/trip/assets/GALAMĒRĶIS.png");
+
+    /* Set a specific height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.localization#localizationTextMiegs {
+    font-size: 1vw;
+    text-align: right;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    color: #421e74;
+    text-decoration: none !important;
+
+}
+.localization#localizationTextCels {
+    font-size: 1vw;
+    text-align: right;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    color: #421e74;
+    text-decoration: none !important;
+}
+
+.localization#localizationTextJaunaTeika {
+    font-size: 1vw;
+    text-align: right;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    color: #421e74;
+    text-decoration: none !important;
+}
+
+.localization a {
+    text-decoration: none;
+}
+
+#headingTextMiegs {
+    font-size: 2vw;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: scale(1.1) rotate(45deg);
+    -webkit-transform: scale(1.1) rotate(45deg);
+    -o-transform: scale(1.1) rotate(45deg);
+    -ms-transform: scale(1.1) rotate(45deg);
+    transform: scale(1.1) rotate(45deg) translate(60%, 130%);
+    color: black;
+}
+
+#headingTextCels {
+    font-size: 2.2vw;
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 76%;
+}
+
+#headingTextJaunaTeika {
+    font-size: 2.2vw;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#headingTextBaznica {
+    font-size: 2.2vw;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    -moz-transform: rotate(11deg);
+    -webkit-transform: rotate(11deg);
+    -o-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    transform: scale(1.1) rotate(11deg) translate(20%, 90%);
+}
+
+#headingTextPiemineklis {
+    font-size: 2.2vw;
+    text-align: center;
+    position: absolute;
+    top: 36%;
+    left: 37%;
+}
+
+#headingTextGalamerkis {
+    font-size: 2.2vw;
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 35%;
+}
+
+#headingTextMiegs:hover {
+    transform: scale(1.1) rotate(45deg) translate(50%, 130%);
+    animation: 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 1 normal both running slide-fwd-center;
+}
+
+#headingTextCels:hover {
+    animation: 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 1 normal both running slide-fwd-center;
+}
+
+#headingTextJaunaTeika:hover {
+    animation: 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 1 normal both running slide-fwd-center;
+}
+
+#headingTextBaznica:hover {
+    animation: 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 1 normal both running slide-fwd-center;
+}
+
+#headingTextPiemineklis:hover {
+    animation: 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.1s 1 normal both running slide-fwd-center;
+}
+
+#paragraphTextMiegs {
+    font-size: 1.2vw;
+    color: white !important;
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    right: 70%;
+    -moz-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    color: black;
+}
+
+#paragraphTextCels {
+    font-size: 1.2vw;
+    color: white !important;
+    text-align: justify;
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    right: 25%;
+}
+
+#paragraphTextJaunaTeika {
+    font-size: 1.2vw;
+    color: white !important;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 40%;
+}
+
+#paragraphTextBaznica {
+    font-size: 1.1vw;
+    color: white !important;
+    text-align: justify;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    right: 78%;
+    bottom: 4%;
+}
+
+#paragraphTextPiemineklis {
+    font-size: 1.2vw;
+    color: #421e74 !important;
+    text-align: justify;
+    position: absolute;
+    top: 48%;
+    left: 32%;
+    right: 32%;
+}
+
+#paragraphTextGalamerkis {
+    font-size: 1.2vw;
+    color: #421e74 !important;
+    text-align: justify;
+    position: absolute;
+    top: 50%;
+    left: 28%;
+    right: 32%;
+}
+
+.slide-fwd-center {
+    font-size: slide-fwd-center 0.45s;
+}
+
+@-webkit-keyframes slide-fwd-center {
+    0% {
+        font-size: 2.2vw;
+    }
+
+    100% {
+        font-size: 2.3vw;
+    }
+}
+
+@keyframes slide-fwd-center {
+    0% {
+        font-size: 2.3vw;
+
+    }
+
+    100% {
+        font-size: 2.2vw;
+
+    }
+    
+}
